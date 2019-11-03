@@ -11,6 +11,4 @@ To run the index file to get the exercise results, use the command showed below:
 
 We don't have a `yarn start`  command because this app is only for a test;
 
-To know the algorithms requested, see this file:
-
-[Algorithms requested](docs/Teste eCondos.pdf)
+To know the algorithms requested, see the file "Teste eCondos.pdf" found at docs/ directory;
