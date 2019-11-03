@@ -5,7 +5,7 @@ This one contains 19 test cases for all the algorithms requested. You can run th
 
 `yarn test`
 
-To run the index file, using the command showes below:
+To run the index file to get the exercise results, use the command showed below:
 
 `yarn dev`
 
