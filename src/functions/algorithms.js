@@ -31,10 +31,6 @@ const first = () => {
     var obj = animals[key];
 
     for (var animal in obj) {
-      // const id = obj[animal]._id;
-      // const name = obj[animal].nome;
-      // const birthday = obj[animal].dataNascimento;
-      // const color = obj[animal].cor;
       const type = obj[animal].especie;
 
       switch (type) {
