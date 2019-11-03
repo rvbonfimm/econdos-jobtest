@@ -1,0 +1,102 @@
+{
+  "animais": [
+    {
+      "_id": 1,
+      "nome": "Bethoven",
+      "dataNascimento": "2017-11-01",
+      "especie": "Cachorro",
+      "cor": "Rajado"
+    },
+    {
+      "_id": 2,
+      "nome": "Chuchu",
+      "dataNascimento": "2016-07-18",
+      "especie": "Gato",
+      "cor": "Rajado"
+    },
+    {
+      "_id": 3,
+      "nome": "Meg",
+      "dataNascimento": "2012-05-23",
+      "especie": "Cachorro",
+      "cor": "Preto"
+    },
+    {
+      "_id": 4,
+      "nome": "Rockinha",
+      "dataNascimento": "2015-07-18",
+      "especie": "Gato",
+      "cor": "Branco"
+    },
+    {
+      "_id": 5,
+      "nome": "Bilu Bilu",
+      "dataNascimento": "2013-05-07",
+      "especie": "Gato",
+      "cor": "Cinza"
+    },
+    {
+      "_id": 6,
+      "nome": "Piter",
+      "dataNascimento": "2014-12-31",
+      "especie": "Cachorro",
+      "cor": "Marrom"
+    },
+    {
+      "_id": 7,
+      "nome": "Pelúcio",
+      "dataNascimento": "2015-11-01",
+      "especie": "Cachorro",
+      "cor": "Marrom"
+    },
+    {
+      "_id": 8,
+      "nome": "Felix",
+      "dataNascimento": "2015-10-31",
+      "especie": "Gato",
+      "cor": "Preto"
+    },
+    {
+      "_id": 9,
+      "nome": "Mel",
+      "dataNascimento": "2014-11-02",
+      "especie": "Gato",
+      "cor": "Branco"
+    },
+    {
+      "_id": 10,
+      "nome": "Fox",
+      "dataNascimento": "2016-12-05",
+      "especie": "Cachorro",
+      "cor": "Preto"
+    },
+    {
+      "_id": 11,
+      "nome": "Costelinha",
+      "dataNascimento": "2013-09-27",
+      "especie": "Ave",
+      "cor": "Verde"
+    },
+    {
+      "_id": 12,
+      "nome": "Estrela",
+      "dataNascimento": "2019-05-01",
+      "especie": "Ave",
+      "cor": "Amarelo"
+    },
+    {
+      "_id": 13,
+      "nome": "Miguel",
+      "dataNascimento": "2014-02-28",
+      "especie": "Ave",
+      "cor": "Preto"
+    },
+    {
+      "_id": 14,
+      "nome": "Felix",
+      "dataNascimento": "2016-06-06",
+      "especie": "Ave",
+      "cor": "Preto"
+    }
+  ]
+}
