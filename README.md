@@ -1,7 +1,7 @@
 # econdos-jobtest
 A test for a job interview
 
-This one contains 19 test cases for all the algorithms requested. You can run this by typing:
+This one contains some test cases for all the algorithms requested. You can run this by typing:
 
 `yarn test`
 
