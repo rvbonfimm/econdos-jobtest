@@ -69,8 +69,8 @@ describe('Tests about the Second algorithm requested', () => {
     const list = second();
 
     expect(list[0]).toMatchObject({
-      name: 'Bethoven',
-      age: 2,
+      Nome: 'Bethoven',
+      idade: '2 ano(s)',
     });
   });
 
@@ -80,8 +80,8 @@ describe('Tests about the Second algorithm requested', () => {
     const size = Object.keys(list).length;
 
     expect(list[size - 1]).toMatchObject({
-      name: 'Felix',
-      age: 3,
+      Nome: 'Felix',
+      idade: '3 ano(s)',
     });
   });
 });
@@ -172,7 +172,7 @@ describe('Tests about the Fourth algorithm requested', () => {
   it('should return exact summation of all animals age', () => {
     const age = fourth();
 
-    expect(age).toBe(57);
+    expect(age).toBe(59);
   });
 });
 

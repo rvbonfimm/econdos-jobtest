@@ -1,9 +1,11 @@
 import fs from 'fs';
 import path from 'path';
+import { format } from 'date-fns';
 
 const reader = path.join(__dirname, '..', '..', 'docs', 'animais.json');
-
 const animals = JSON.parse(fs.readFileSync(reader));
+const currentYear = Number(format(new Date(), 'yyyy'));
+const currentMonth = Number(format(new Date(), 'MM'));
 
 /*
  * Função que testa a leitura do arquivo de entrada
@@ -67,14 +69,19 @@ const second = () => {
     for (var animal in obj) {
       const name = obj[animal].nome;
       const birthday = obj[animal].dataNascimento;
-      const age = 2019 - birthday.substr(0, 4);
 
-      const auxe = {
-        name: name,
-        age: age,
-      };
+      let age = currentYear - birthday.substr(0, 4);
+      const month = currentMonth - birthday.substr(5, 2);
 
-      list.push(auxe);
+      // If month is negative, It means that the animal completed one more year
+      if (month < 0) {
+        age += 1;
+      }
+
+      list.push({
+        Nome: name,
+        idade: `${age} ano(s)`,
+      });
     }
   }
 
@@ -98,7 +105,13 @@ const third = () => {
       const species = obj[animal].especie;
       const color = obj[animal].cor;
 
-      const age = 2019 - birthday.substr(0, 4);
+      let age = currentYear - birthday.substr(0, 4);
+      const month = currentMonth - birthday.substr(5, 2);
+
+      // If month is negative, It means that the animal completed one more year
+      if (month < 0) {
+        age += 1;
+      }
 
       switch (color) {
         case 'Preto':
@@ -133,7 +146,16 @@ const fourth = () => {
     const obj = animals[key];
 
     for (var animal in obj) {
-      const age = 2019 - obj[animal].dataNascimento.substr(0, 4);
+      const birthday = obj[animal].dataNascimento;
+
+      let age = currentYear - birthday.substr(0, 4);
+      const month = currentMonth - birthday.substr(5, 2);
+
+      // If month is negative, It means that the animal completed one more year
+      if (month < 0) {
+        age += 1;
+      }
+
       total += age;
     }
   }
@@ -157,7 +179,13 @@ const fifth = () => {
       const species = object[animal].especie;
       const color = object[animal].cor;
       const birthday = object[animal].dataNascimento;
-      const age = 2019 - birthday.substr(0, 4);
+      let age = currentYear - birthday.substr(0, 4);
+      const month = currentMonth - birthday.substr(5, 2);
+
+      // If month is negative, It means that the animal completed one more year
+      if (month < 0) {
+        age += 1;
+      }
 
       if (age > lastAge) {
         lastAnimal = [
